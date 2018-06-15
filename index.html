@@ -365,13 +365,13 @@
       </div>
     </section> -->
 
-    <!-- Contact -->
+<!-- Contact -->
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">联系我们</h2>
-            <h3 class="section-subheading text-muted">绵阳科发会展旅游有限公司竭诚为您服务！</h3>
+            <h3 class="section-subheading text-muted">绵阳会展公司竭诚为您服务！</h3>
           </div>
         </div>
         <div class="row">
@@ -380,30 +380,36 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <p class="help-block" style="color: yellow;" >联络员：刘小姐</p>
+                    <input class="form-control" id="name" type="text" placeholder="王小贝" required="required" data-validation-required-message="请输入您的姓名。">
+                    <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <p class="help-block" style="color: yellow;" >电话号码：13818240231</p>
+                    <input class="form-control" id="email" type="email" placeholder="1234567@qq.com" required="required" data-validation-required-message="请输入您的联系邮箱。">
+                    <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <p class="help-block" style="color: yellow;" >邮箱：2630438884@qq.com</p>
+                    <input class="form-control" id="phone" type="tel" placeholder="13818188888" required="required" data-validation-required-message="请输入您的联系电话。">
+                    <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <p class="help-block" style="color: yellow;" >办公地址：绵阳市高新区飞云大道488号A馆3楼行政人事部</p>
-                  </div>
-                  <div class="form-group">
-                    <p class="help-block" style="color: yellow;" >接待时间：工作日 上午9:00-11:00;下午1:30-5:00</p>
+                    <textarea class="form-control" id="message" placeholder="留言区域" required="required" data-validation-required-message="请填写留言。"></textarea>
+                    <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">发送</button>
+                </div>
               </div>
             </form>
           </div>
         </div>
       </div>
     </section>
+
 
     <!-- Footer -->
     <footer>
